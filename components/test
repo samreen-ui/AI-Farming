@@ -1,0 +1,20 @@
+import axios from 'axios';
+import React, { useState, useEffect } from 'react';
+import { View, Text } from 'react-native';
+
+const RainfallPredictionScreen = () => {
+const [rainfall, setRainfall] = useState(null);
+useEffect(() => {
+    axios.get('https://your-api-endpoint.com/rainfall')
+    .then(response => setRainfall(response.data))
+    .catch(error => console.error(error));
+}, []);
+
+  return (
+    <View>
+      <Text>Rainfall Prediction: {rainfall ? rainfall : 'Loading...'}</Text>
+    </View>
+  );
+};
+
+export default RainfallPredictionScreen;

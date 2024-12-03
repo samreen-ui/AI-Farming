@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "254545602773",
+    "project_id": "udaan-2960c",
+    "storage_bucket": "udaan-2960c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254545602773:android:23a6215a815af617071a5c",
+        "android_client_info": {
+          "package_name": "com.udaan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-dddvZuldKhv9_zAbXFAkIfPn6IATReQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
