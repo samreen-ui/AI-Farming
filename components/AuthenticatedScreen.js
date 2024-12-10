@@ -157,7 +157,7 @@ const AuthenticatedScreen = ({ handleLogout }) => {
           style={[styles.button, { backgroundColor: '#4682b4' }]} 
           onPress={() => navigation.navigate('CropClassification')} // Navigate to CropClassificationScreen
         >
-          <Text style={styles.buttonText}>Crop Classification</Text>
+          <Text style={styles.buttonText}>        Arial View{'\n'}Crop Classification</Text>
         </TouchableOpacity>
 
         {/* Button to navigate to Rainfall Prediction */}
@@ -173,7 +173,7 @@ const AuthenticatedScreen = ({ handleLogout }) => {
           style={[styles.button, { backgroundColor: '#4682b4' }]} 
           onPress={() => navigation.navigate('LandClassification')} // Navigate to LandClassificationScreen
         >
-          <Text style={styles.buttonText}>Land Classification</Text>
+          <Text style={styles.buttonText}>Realtime land classification{'\n'}              (using GEE)</Text>
         </TouchableOpacity>
         
         {/* Button to navigate to the App Details */}

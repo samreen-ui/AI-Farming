@@ -39,7 +39,7 @@ const LandClassificationScreen = () => {
         name: 'land_image.jpg',
       });
 
-      const response = await axios.post('https://b06b-2409-40f0-d6-9833-7ce4-665c-1417-8e15.ngrok-free.app/predict_land', formData, {
+      const response = await axios.post('https://5513-2409-40f0-101a-5b98-dc-3367-e28e-f9aa.ngrok-free.app/predict_land', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
@@ -56,7 +56,7 @@ const LandClassificationScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
       <Image
-        source={{ uri: 'https://images.unsplash.com/photo-1661899068878-f1dcd63c56e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZhcm1pbmclMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww' }}
+        source={{ uri: 'https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjgwMC1teW50LTIyLmpwZw.jpg' }}
         style={styles.backgroundImage}
       />
       <View style={styles.overlay}>
@@ -109,9 +109,9 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#fff',
+    color: 'black',
     marginBottom: 30,
-    textShadowColor: 'rgba(0, 0, 0, 0.7)',
+    textShadowColor: 'rgba(0, 0, 0, 0.2)',
     textShadowOffset: { width: 1, height: 1 },
     textShadowRadius: 10,
   },
@@ -144,8 +144,8 @@ const styles = StyleSheet.create({
     fontSize: 23,
     fontWeight: 'bold',
     marginTop: 20,
-    color: 'white',
-    textShadowColor: 'rgba(0, 0, 0, 0.4)',
+    color: 'black',
+    textShadowColor: 'rgba(0, 0, 0, 0.2)',
     textShadowOffset: { width: 1, height: 1 },
     textShadowRadius: 10,
   },
@@ -153,8 +153,8 @@ const styles = StyleSheet.create({
     color: 'red',
     fontSize: 16,
     marginTop: 20,
-    color: '#fff',
-    textShadowColor: 'rgba(0, 0, 0, 0.7)',
+    color: 'red',
+    textShadowColor: 'rgba(0, 0, 0, 0.2)',
     textShadowOffset: { width: 1, height: 1 },
     textShadowRadius: 10,
   },

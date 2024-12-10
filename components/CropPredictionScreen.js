@@ -44,7 +44,7 @@ const CropPredictionScreen = () => {
 
     try {
       const response = await axios.post(
-        'https://b06b-2409-40f0-d6-9833-7ce4-665c-1417-8e15.ngrok-free.app/predict_crop',
+        'https://5513-2409-40f0-101a-5b98-dc-3367-e28e-f9aa.ngrok-free.app/predict_crop',
         {
           year,
           state,
@@ -94,7 +94,7 @@ const CropPredictionScreen = () => {
   return (
     <ImageBackground 
     // source={require('./crop.jpg')}
-    source={{uri:'https://images.unsplash.com/photo-1661899068878-f1dcd63c56e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZhcm1pbmclMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww'}}
+    source={{uri:'https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjgwMC1teW50LTIyLmpwZw.jpg'}}
      style={styles.imageBackground}>
       <ScrollView contentContainerStyle={styles.scrollContainer}>
         <View style={styles.container}>

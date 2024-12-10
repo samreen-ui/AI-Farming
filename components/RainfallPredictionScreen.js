@@ -149,7 +149,7 @@ const RainfallPredictionScreen = () => {
   return (
     <ImageBackground 
     // source={require('./crop.jpg')} 
-  source={{uri:'https://images.unsplash.com/photo-1661899068878-f1dcd63c56e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZhcm1pbmclMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww'}}   style={styles.imageBackground}>
+  source={{uri:'https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjgwMC1teW50LTIyLmpwZw.jpg'}}   style={styles.imageBackground}>
       <View style={styles.container}>
         <Text style={styles.heading}>Rainfall Prediction</Text>
         <TextInput

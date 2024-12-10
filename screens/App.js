@@ -202,14 +202,15 @@ import AuthenticatedScreen from '../components/AuthenticatedScreen';
 import DetailScreen from '../components/DetailScreen';
 import RainfallPredictionScreen from '../components/RainfallPredictionScreen';
 import CropPredictionScreen from '../components/CropPredictionScreen';
-import LandClassificationScreen from '../components/LandClassificationScreen'; // Import LandClassificationScreen
+import LandClassificationScreen from '../components/LandClassificationScreen';
+import CropClassificationScreen from '../components/CropClassification';
+import CropYieldPredictionScreen from '../components/CropYieldPredictionScreen';
+import WelcomeScreen from '../components/WelcomeScreen'; // Import the WelcomeScreen
 import { auth } from '../firebaseConfig';
 import firestore from '@react-native-firebase/firestore';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { enableScreens } from 'react-native-screens';
-import CropClassificationScreen from '../components/CropClassification';
-import CropYieldPredictionScreen from '../components/CropYieldPredictionScreen';
 
 enableScreens();
 const Stack = createStackNavigator();
@@ -226,7 +227,7 @@ export default function App() {
   const [isModalVisible, setIsModalVisible] = useState(false);
 
   useEffect(() => {
-    const unsubscribe = auth().onAuthStateChanged(user => {
+    const unsubscribe = auth().onAuthStateChanged((user) => {
       setUser(user);
     });
 
@@ -361,38 +362,41 @@ export default function App() {
             />
             <Stack.Screen
               name="LandClassification"
-              component={LandClassificationScreen} // Added Land Classification screen
+              component={LandClassificationScreen}
               options={{ headerShown: false }}
             />
             <Stack.Screen
               name="CropClassification"
-              component={CropClassificationScreen} // Added Land Classification screen
+              component={CropClassificationScreen}
               options={{ headerShown: false }}
             />
           </>
         ) : (
-          <Stack.Screen name="Auth" options={{ headerShown: false }}>
-            {(props) => (
-              <AuthScreen
-                {...props}
-                email={email}
-                setEmail={setEmail}
-                password={password}
-                setPassword={setPassword}
-                phoneNumber={phoneNumber}
-                setPhoneNumber={setPhoneNumber}
-                isLogin={isLogin}
-                setIsLogin={setIsLogin}
-                handleAuthentication={handleAuthentication}
-                signUpMethod={signUpMethod}
-                setSignUpMethod={setSignUpMethod}
-                handleGetOTP={sendVerificationCode}
-                userName={userName}
-                setUserName={setUserName}
-                handleForgotPassword={handleForgotPassword}
-              />
-            )}
-          </Stack.Screen>
+          <>
+            <Stack.Screen name="Welcome" component={WelcomeScreen} options={{ headerShown: false }} />
+            <Stack.Screen name="Auth" options={{ headerShown: false }}>
+              {(props) => (
+                <AuthScreen
+                  {...props}
+                  email={email}
+                  setEmail={setEmail}
+                  password={password}
+                  setPassword={setPassword}
+                  phoneNumber={phoneNumber}
+                  setPhoneNumber={setPhoneNumber}
+                  isLogin={isLogin}
+                  setIsLogin={setIsLogin}
+                  handleAuthentication={handleAuthentication}
+                  signUpMethod={signUpMethod}
+                  setSignUpMethod={setSignUpMethod}
+                  handleGetOTP={sendVerificationCode}
+                  userName={userName}
+                  setUserName={setUserName}
+                  handleForgotPassword={handleForgotPassword}
+                />
+              )}
+            </Stack.Screen>
+          </>
         )}
       </Stack.Navigator>
     </NavigationContainer>

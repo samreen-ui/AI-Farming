@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 25,
     textAlign: 'center',
-    color:'white',
+    color:'B',
   },
   bottomContainer: {
     marginTop: 30,

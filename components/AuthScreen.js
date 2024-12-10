@@ -65,8 +65,8 @@ const AuthScreen = ({
   };
   return (
 <ImageBackground 
-      source={require('./Auth.jpg')}
-      // source={{ uri: 'https://img.freepik.com/premium-photo/abstract-blue-purple-gradient-background-with-curved-shape_1174990-224750.jpg?ga=GA1.1.503132469.1717491573&semt=ais_hybrid' }} 
+      // source={require('./Auth.jpg')}
+       source={{ uri: 'https://img.freepik.com/free-vector/white-gradient-background-modern-design_361591-4475.jpg?w=360' }} 
       // https://www.pixelstalk.net/wp-content/uploads/images6/Green-Aesthetic-Pictures-Free-Download-1.jpg
       style={[styles.imageBackground, { width: 370, height: 800 }]}
     >
@@ -137,8 +137,8 @@ const AuthScreen = ({
             keyboardType={isLogin || signUpMethod === 'email' ? "default" : "numeric"}
           />
           {isLogin && (
-        <TouchableOpacity style={[styles.forgotPasswordButton,{marginLeft:25}]} onPress={handleForgotPassword}>
-          <Text style={{color:'white',marginLeft:150,fontWeight:'bold'}}>Forgot Password?</Text>
+        <TouchableOpacity style={{marginLeft:25}} onPress={handleForgotPassword}>
+          <Text style={{color:'black',marginLeft:150,fontWeight:'bold'}}>Forgot Password?</Text>
         </TouchableOpacity>
       )}
         </View>
@@ -162,12 +162,12 @@ const AuthScreen = ({
           >
             {isLogin ? 'Need an account? Sign Up' : 'Already have an account? Sign In'}
           </Text>
-          <Text style={{color: '#ccc', marginTop: 12, textAlign: 'center', fontSize: 14, fontWeight: 'bold'}}>
+          <Text style={{color: 'grey', marginTop: 12, textAlign: 'center', fontSize: 14, fontWeight: 'bold'}}>
     © 2024 GrowSmart
     {'\n'}
-    <Text style={{color: '#aaa', marginTop: 4, fontSize: 10, fontStyle: 'italic'}}>
+    {/* <Text style={{color: 'black', marginTop: 4, fontSize: 10, fontStyle: 'italic'}}>
         Developed by Prranith. All rights reserved.
-    </Text>
+    </Text> */}
 </Text>
 
         </View>

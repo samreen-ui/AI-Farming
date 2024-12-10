@@ -5,9 +5,9 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.utils import img_to_array, load_img
 from io import BytesIO
 from PIL import Image
-
+from flask_cors import CORS
 app = Flask(__name__)
-
+CORS(app)
 # Load models and encoders for Rainfall and Yield Prediction
 # Rainfall Prediction Model
 rf_model_rainfall = joblib.load('../src/requirements.txt/rf_model_rainfall.pkl')
@@ -152,4 +152,4 @@ def predict_land():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True,port=5000, host='0.0.0.0')
