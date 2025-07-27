@@ -7,7 +7,7 @@
 You can view our complete project presentation here:  
 [🔗 Google Drive - Project PPT](https://drive.google.com/drive/folders/1ThdyCXxq3wBGJCQOdhzN889q8w6TV-Hk?usp=sharing)
 
-An intelligent mobile application that leverages **Machine Learning** and **Deep Learning** to improve agricultural practices. It supports:
+It is an intelligent mobile application that leverages **Machine Learning** and **Deep Learning** to improve agricultural practices. It supports:
 
 -  Crop Recommendation  
 -  Crop Yield Prediction
