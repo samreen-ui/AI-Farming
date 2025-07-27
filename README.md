@@ -1,4 +1,3 @@
-<img width="1419" height="787" alt="Screenshot 2025-07-27 130152" src="https://github.com/user-attachments/assets/07f5ba3d-0192-4d60-a272-4f63a9ce64bc" />
 # 🌾 AI Farming App
 
 
@@ -59,8 +58,9 @@ Built using:
 <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/ab1a3853-bd2c-4f36-8e9b-5930b48e4a13" />
 <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/e749838f-49b3-4b10-9ac2-a79cd5325019" />
 <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/77c05b65-de33-4731-a95e-e3a777a0f06f" />
-<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/a9245200-b6c2-4395-8b3b-b0caeeb225f5" />
 <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/d536b4bf-00c9-4838-a086-7b07ee0affe7" />
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/a9245200-b6c2-4395-8b3b-b0caeeb225f5" />
+
 
 
 ---
