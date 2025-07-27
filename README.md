@@ -1,4 +1,4 @@
-
+<img width="1419" height="787" alt="Screenshot 2025-07-27 130152" src="https://github.com/user-attachments/assets/07f5ba3d-0192-4d60-a272-4f63a9ce64bc" />
 # 🌾 AI Farming App
 
 
@@ -54,25 +54,34 @@ Built using:
 ---
 
 ## 📸 App Screenshots
-<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/9c96875a-d9a1-4bee-841a-7cc5b1363ce6" />
-<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/2dd2650c-e86f-46bd-873a-61fc87523add" />
-<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/460938f0-209d-4391-b58d-bac09a1cfdff" />
-<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/951f532d-6700-40a9-9b9b-4110f1c520dd" />
-<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/c13ee309-0f6f-4ed3-bb6a-821a673834af" />
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/015a59b4-98ba-4cdc-ac95-407c03459e45" />
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/1c481904-6953-4542-bc33-7cf1f9d57865" />
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/ab1a3853-bd2c-4f36-8e9b-5930b48e4a13" />
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/e749838f-49b3-4b10-9ac2-a79cd5325019" />
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/77c05b65-de33-4731-a95e-e3a777a0f06f" />
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/a9245200-b6c2-4395-8b3b-b0caeeb225f5" />
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/d536b4bf-00c9-4838-a086-7b07ee0affe7" />
+
 
 ---
 ## 🧱 System Overview (ML and DL models)
 
 <table>
   <tr>
-    <td><img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/5822a980-9014-4b8e-98c8-2619f353cb91" /></td>
-    <td><img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/3318c1d5-e7d5-4f66-a6b2-06f0c41ff98b" /></td>
-    <td><img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/ce8bd6c1-0163-4bdb-951e-bc9fd8f420b9" /></td>
+    <td><img width="300" height="300" alt="Screenshot 2025-07-27 132419" src="https://github.com/user-attachments/assets/fa641bd1-ff94-4a75-82a9-b3e2da363ed0" />
+</td>
+    <td><img width="300" height="300" alt="Screenshot 2025-07-27 132521" src="https://github.com/user-attachments/assets/92688c0f-e384-4cbb-9417-ea5c8d9bafa8" />
+</td>
+    <td><img width="300" height="300" alt="Screenshot 2025-07-27 132542" src="https://github.com/user-attachments/assets/90fb076b-434b-4390-b8d1-10fe042fd5a5" />
+</td>
   </tr>
   <tr>
-    <td><img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/89679468-c064-44fb-8510-ef5aed2a3ddc" /></td>
-    <td><img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/fc7a9f2c-66cf-4fe5-8beb-45aa51069956" /></td>
-    <td><img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/544f8bd7-0b09-4a6c-b8fb-bc5835f938b9" /></td>
+    <td><img width="300" height="300" alt="Screenshot 2025-07-27 132600" src="https://github.com/user-attachments/assets/c80d2d58-a9f5-4222-89df-04ed4fdbc927" />
+</td>
+    <td><img width="300" height="300" alt="Screenshot 2025-07-27 132641" src="https://github.com/user-attachments/assets/1e01adad-366a-4e18-a16e-9486006db72c" />
+</td>
+    <td><img width="300" height="300" alt="Screenshot 2025-07-27 132641" src="https://github.com/user-attachments/assets/3a488e9a-5315-4fc5-bb2c-c40fdb6cd073" />
+</td>
   </tr>
 </table>
 
