@@ -1,7 +1,11 @@
 
 # 🌾 AI Farming App
 
-Link to our application demo : https://drive.google.com/file/d/1porSHEnTOohk9_gzwVzc5dsy-4MTzOzQ/view?usp=sharing
+
+## 📄 Detailed Project Report (PPT)
+
+You can view our complete project presentation here:  
+[🔗 Google Drive - Project PPT](https://drive.google.com/drive/folders/1ThdyCXxq3wBGJCQOdhzN889q8w6TV-Hk?usp=sharing)
 
 An intelligent mobile application that leverages **Machine Learning** and **Deep Learning** to improve agricultural practices. It supports:
 
